@@ -1,2 +1,0 @@
-# lojabeleza
-Created with CodeSandbox

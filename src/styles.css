@@ -1,0 +1,81 @@
+body{
+  background-image: url("fundo.jpg");
+  background-repeat: repeat;
+}
+ul
+li,
+p {
+  margin: 10 px;
+  padding: 10px;
+  list-style: none;
+  font-family: Arial;
+  text-align: center;
+}
+.desconto {
+  font-size: 17px;
+  text-align: center;
+  padding: 0px;
+  background: #D9AB82;
+}
+.topo {
+  font-size: 26px;
+  align-items: center;
+  background: #D9CAC1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu {
+  color: #D9CAC1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home {
+  flex-basis: 600px;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.a {
+  flex-grow: 1;
+  text-align: left;
+  margin: 20 auto;
+}
+.b {
+  flex-grow: 1;
+  text-align: bottom-right;
+  margin: 20 auto;
+}
+.sale {
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.shopall {
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.contato {
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+form{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+background: #D9CAC1;
+max-width: 500px;
+margin: 0 auto;
+padding: 0 15px 15px 10px;
+}
